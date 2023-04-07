@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      
+      
+      <header class="header">
+      </div>
+      <form id="formulario">
+        <label for="busqueda" id="buscador"></label>
+        <input
+          type="text"
+          name="nombrePelicula"
+          placeholder="Ingrese nombre o cateoria"
+          id="busqueda"/>
+        
+        <button type="submit" value="buscar" id="imagenLupa"><img src="./Iconos/lupa.png" ></button>
+      </form>
+      <nav>
+         <ul class="nav-links">
+              <li><a href="#">a</a></li>
+              <li><a href="#">b</a></li>
+              <li><a href="#">c</a></li>
+         </ul>            
+      </nav>
+          <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+          <div id="mobile-menu" class="overlay">
+          <a onclick="closeNav()" href="" class="close">&times;</a>
+          <div class="overlay-content">
+             <a href="#">a</a>
+             <a href="#">b</a>
+             <a href="#">c</a>
+          </div>
+      </div>
+    </header>
+    <main>
+      <div id="contenedor"></div>
+    </main>
+    <footer>
+      <div>
+        <div id="redesSociales">
+          <img src="./Iconos/instagram.png" />
+          <img src="./Iconos/facebook.png" />
+          <img src="./Iconos/pajarito.png" />
+          <img src="./Iconos/youtube.png" />
+        </div>
+        <p>Audios y subtitulo</p>
+        <p>Privacidad</p>
+        <p>Contactanos</p>
+        <div>
+          <h2>2023-Comision 162 - Grupo 11</h2>
+        </div>
+      </div>
+
+      <div>
+        <p>Descripcion de audio</p>
+        <p>Inversores</p>
+        <p>Avisos legales</p>
+      </div>
+
+      <div>
+        <p>Centro de ayuda</p>
+        <p>Empleo</p>
+        <p>Preferencias de cookies</p>
+      </div>
+
+      <div>
+        <p>Tarjetas regalo</p>
+        <p>Terminos de uso</p>
+        <p>Informacion corporativa</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
