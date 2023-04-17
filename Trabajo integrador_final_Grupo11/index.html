@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <link href="https://icons8.com/icon/gJh5OcmAUqdY/film" />
+    <title>Movieprimer</title>
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <img
+          src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/null/external-film-art-and-design-studio-xnimrodx-lineal-gradient-xnimrodx-2.png"
+        />
+        <h3>Movie primer</h3>
+      </div>
+      <div class="searchContainer">
+        <form id="formulario">
+          <input
+            type="text"
+            name="nombrePelicula"
+            placeholder="Ingrese nombre o categoria"
+            id="busqueda"
+          />
+
+          <div class="bi bi-search"></div>
+        </form>
+      </div>
+      <div>
+        <a onclick="openNav()" class="menu" href="Formulario.html"
+          ><button class="boton-Sing-menu">Sing up</button></a
+        >
+        <a onclick="openNav()" class="menu" href="index.html"
+          ><button class="boton-Sing-menu">Menu</button></a
+        >
+      </div>
+    </header>
+
+    <main>
+      <div id="contenedor"></div>
+    </main>
+
+    <footer>
+      <hr />
+      <div class="container__footer">
+        <div class="box__footer">
+          <h2>Home</h2>
+          <a href="https://www.google.com">Inicio</a>
+          <a href="#">Contacto</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Preguntas frecuentes</a>
+        </div>
+
+        <div class="box__footer">
+          <h2>Mi cuenta</h2>
+          <a href="#">Perfil</a>
+          <a href="#">Configuraciones</a>
+          <a href="#">Seguridad</a>
+          <a href="#">Servicios</a>
+        </div>
+
+        <div class="box__footer">
+          <h2>Siguenos</h2>
+          <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
+          <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+          <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+          <a href="#"><i class="bi bi-whatsapp"></i>Whastapp</a>
+        </div>
+      </div>
+      <div class="box__copyright">
+        <hr />
+        <p>
+          AP Comisión 162 Grupo 11
+          <strong>Todos los derechos reservados © 2023</strong>
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
